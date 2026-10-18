@@ -54,4 +54,15 @@
     width: 40vw;
     margin-left: 4vw;
     font-family: monospace;
+    font-size: 1.25vw;
+    transition: transform 0.3s ease;
+}
+.writing:hover {
+    transform: translateY(-8px) scale(1.05);
+}
+.writingp {
+    margin: 1vw;
+}
+.mylist {
+    margin: 1vw;
 }
