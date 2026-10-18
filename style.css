@@ -16,7 +16,7 @@
     font-family:cursive;
     display: flex;
     font-size: clamp(35px, 9vw, 9vw);
-    margin-top: 20px;
+    margin-top: 5vh;
     background-color: rgba(141, 132, 118, 0.149);
     width: fit-content;
     margin-left: auto;
