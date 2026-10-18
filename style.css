@@ -1,0 +1,41 @@
+.da-body {
+    background-color: black;
+    background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);     
+    background-size: 1.5vw 1.5vw; 
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.Nutshell {
+    font-family:cursive;
+    display: flex;
+    font-size: clamp(35px, 9vw, 9vw);
+    margin-top: 20px;
+    background-color: rgba(141, 132, 118, 0.149);
+    width: fit-content;
+    margin-left: auto;
+    margin-right:auto;
+    transition: transform 0.3s;
+    letter-spacing: 5px;
+    padding: 0px 24px;
+}
+.Nutshell span {
+        color: antiquewhite;
+        transition: all 0.2s ease;
+        cursor: pointer;
+}
+.Nutshell span:hover {
+    color: rgb(177, 191, 236);
+    transform: translateY(-35px) scale(1.1);
+    text-shadow: 0 5px 15px rgba(191, 193, 235, 0.723)
+}
+.tisme {
+    width: 225px;
+    height: auto;
+    display: block;
+    margin-left: 0%;
+    
+}
