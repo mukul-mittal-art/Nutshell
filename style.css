@@ -1,3 +1,5 @@
+/* the body */
+
 .da-body {
     background-color: black;
     background-image: 
@@ -8,6 +10,8 @@
     justify-content: center;
     align-items: center;
     }
+
+    /* the heading */
 .Nutshell {
     font-family:cursive;
     display: flex;
@@ -33,6 +37,7 @@
     text-shadow: 0 5px 15px rgba(191, 193, 235, 0.723)
 }
 
+/* my picture ;o */
 .tisme {
     width: 17.5vw;
     height: auto;
@@ -45,6 +50,8 @@
 .tisme:hover {
     transform: translateY(-8px) scale(1.05);
 }
+
+/* here is all the main text */
 .alldacontent {
     display: flex;
 }
